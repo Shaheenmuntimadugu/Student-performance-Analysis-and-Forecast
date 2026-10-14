@@ -11,6 +11,9 @@ Excel vs Python Forecast - Predicting Reading score from Math score
 'model.fit(maths,reading)'
 'model.predict([[100]])' ->95
 
+**Power BI:**
+Same Forecast with Scatter + Trend Analysis
+
 **Result:**
 Both give same trend .
 High Maths = High Reading
@@ -21,7 +24,6 @@ See Screenshots - Forecast Analysis using Python.png
 **Tools:**
 Excel,Python,pandas,sklearn
 
-**Power BI:**
-Same Forecast with Scatter + Trend Analysis
+
 
 
