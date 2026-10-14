@@ -21,4 +21,7 @@ See Screenshots - Forecast Analysis using Python.png
 **Tools:**
 Excel,Python,pandas,sklearn
 
+**Power BI:**
+Same Forecast with Scatter + Trend Analysis
+
 
