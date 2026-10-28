@@ -1,29 +1,22 @@
-# Student-performance-Analysis-and-Forecast
-Excel vs Python Forecast - Predicting Reading score from Math score 
+# Student Performance Analysis and Forecast
 
-**Goal** Predict Reading Score from Math Score
+## 1. Goal
+Predict Reading Score using Maths Score — Linear Regression
 
-**Excel:**
-=FORECAST(100,Reading_score,Maths_score) ->92
+## 2. Key Result
+- Formula: Reading = 0.787 * Maths + 17.14
+- Maths 100 → Reading 95.86
+- R² = 0.64, MAE = 7 marks
+- FORECAST.LINEAR(G2:G1001, F2:F1001)
 
-**Python:**
-'model = LinearRegression'
-'model.fit(maths,reading)'
-'model.predict([[100]])' ->95
+## 3. Tools
+Excel, Python (Pandas, Sklearn), Power BI
 
-**Power BI:**
-Same Forecast with Scatter + Trend Analysis
+## 4. Files
+- StudentsPerformance.xlsx - Dataset + Forecast (corrected)
+- Student_performance_Analysis_and_Forecast.ipynb - Python Analysis
+- StudentPerformance.pbix - Power BI Dashboard
 
-**Result:**
-Both give same trend .
-High Maths = High Reading
-
-**Proof:**
-See Screenshots - Forecast Analysis using Python.png
-
-**Tools:**
-Excel,Python,pandas,sklearn
-
-
-
-
+## 5. Insights
+- 64% Reading variation explained by Maths
+- Strong positive correlation (0.80)
